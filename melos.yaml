@@ -33,7 +33,7 @@ scripts:
     exec:
       concurrency: 6
       failFast: false
-    run: flutter build apk --release --obfuscate --split-debug-info=build/flutter_mapping
+    run: flutter build apk --release
     description: Run a build APK Release.
     packageFilters:
       fileExists:
@@ -43,6 +43,15 @@ scripts:
       concurrency: 6
       failFast: false
     run: flutter build apk --debug --split-debug-info=build/flutter_mapping
+    description: Run a build APK Release.
+    packageFilters:
+      fileExists:
+        - "lib/main.dart"
+  build_web_release:
+    exec:
+      concurrency: 6
+      failFast: false
+    run: flutter build apk --release --obfuscate --split-debug-info=build/flutter_mapping
     description: Run a build APK Release.
     packageFilters:
       fileExists:

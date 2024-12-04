@@ -1,5 +1,6 @@
 import 'package:common_depedencies/example_depedency.dart';
 import 'package:flutter/material.dart';
+import 'package:http/http.dart';
 
 void main() {
   runApp(const MyApp());
