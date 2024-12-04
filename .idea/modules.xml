@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/core/common_depedencies/melos_common_depedencies.iml" filepath="$PROJECT_DIR$/core/common_depedencies/melos_common_depedencies.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/example_app1/melos_example_app1.iml" filepath="$PROJECT_DIR$/app/example_app1/melos_example_app1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/example_app2/melos_example_app2.iml" filepath="$PROJECT_DIR$/app/example_app2/melos_example_app2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/core/widgets/melos_widgets.iml" filepath="$PROJECT_DIR$/core/widgets/melos_widgets.iml" />
+      <module fileurl="file://$PROJECT_DIR$/melos_flutter_modular.iml" filepath="$PROJECT_DIR$/melos_flutter_modular.iml" />
+    </modules>
+  </component>
+</project>

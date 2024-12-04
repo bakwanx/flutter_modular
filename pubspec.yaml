@@ -1,0 +1,32 @@
+name: root_project
+description: A new Flutter project.
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.3
+
+dependencies:
+  freezed_annotation: ^2.1.0
+
+dev_dependencies:
+  melos: ^6.2.0
+
+flutter:
+  uses-material-design: true
+
+  fonts:
+    - family: Gotham Extra Bold
+      fonts:
+        - asset: fonts/Gotham-Black.otf
+          weight: 500
+    - family: Gotham Light
+      fonts:
+        - asset: fonts/Gotham-Light.otf
+          weight: 500
+    - family: Gotham
+      fonts:
+        - asset: fonts/Gotham-Medium.otf
+          weight: 500
